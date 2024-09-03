@@ -6,17 +6,19 @@ b = bool(first == third)
 c = bool(second == third)
 if a and not c:
     st_ = first + second
-    print('\n'.join(st_))
+    print(2)
 elif c and not a:
     stt_ = first + third
-    print('\n'.join(stt_))
+    print(2)
 elif b and not c:
     sttt_ = second + third
-    print('\n'.join(sttt_))
+    print(2)
 elif not a and not b and not c:
     sq_ = 0
     print(sq_)
-elif a and b and c:
+else:
+    a and b and c
     sqw_ = first + second + third
-    print('\n'.join(sqw_))
-
+    print(3)
+    
+# использованны все операторы
